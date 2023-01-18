@@ -1,7 +1,7 @@
 # LIBRARY SYSTEM
 
 ## WHAT
-This was an assignment in **b**PYTHON**b** sofware writing and testing.
+This was an assignment in **PYTHON** sofware writing and testing.
 We're creating a library system with books and users and the system
 takes care of rentals and availability.
 GUI is through CLI.
