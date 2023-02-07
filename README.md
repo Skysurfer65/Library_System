@@ -17,7 +17,7 @@ No installation is necessary. Run "new_library_app.py" from your chosen Python e
 All tests are in their respective folder. All tests done by "Unittest". Be sure to set path 
 for testing to correct module if testing from VSC.<br/>
 In my system_test I test the whole app and use the mock extension to set patch to not overwrite
-database etc.
+database etc.<br/>
 **UPDATE** library_testsuite.py has been added to be able to run ALL test via CLI, use command<br/>
 'python -m unittest -v library_testsuite'
 
