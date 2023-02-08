@@ -4,7 +4,7 @@
 This was an assignment in **PYTHON** sofware writing and testing.
 We're creating a library system with books and users and the system
 takes care of rentals and availability.
-GUI is through CLI.
+UI is through CLI.
 
 ## DATABASE
 There's no real database here but my pseudodatabase of library books
