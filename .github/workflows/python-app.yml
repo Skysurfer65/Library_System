@@ -1,7 +1,8 @@
 # This workflow will install Python dependencies, run tests and lint with a single version of Python
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
 
-name: Python application
+name: Library_System_unittest
+run-name: ${{ github.actor }} is learning GitHub Actions
 
 on:
   push:
@@ -40,6 +41,7 @@ jobs:
     needs: [build]
     runs-on: build
     steps:
+    - uses: actions/checkout@v3
     - name: Test with unittest
       run: |
         python -m unittest -v
