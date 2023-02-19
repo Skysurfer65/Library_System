@@ -44,7 +44,9 @@ jobs:
     - name: Load my directories
     - uses: actions/checkout@v3
     - name: Load my python setup
-    - uses: actions/setup-python@v3   
+    - uses: actions/setup-python@v3
+      with:
+        python-version: "3.10"
     - name: Test with unittest
       run: |
         python -m unittest -v
